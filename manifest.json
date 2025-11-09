@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Q&A Helper",
+    "version": "1.0",
+    "description": "Ask questions about YouTube videos using your Gemini backend.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "http://127.0.0.1:5000/*",
+        "https://*.ngrok-free.app/*"
+    ]
+}

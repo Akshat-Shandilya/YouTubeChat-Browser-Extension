@@ -1,0 +1,11 @@
+dotenv
+youtube-transcript-api 
+langchain
+langchain-community 
+langchain_huggingface 
+langchain_google_genai
+langchain-text-splitters
+faiss-cpu
+flask 
+flask-cors
+
